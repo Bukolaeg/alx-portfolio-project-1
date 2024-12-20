@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 7px;
+  padding: 17px;
+
+.navigation-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.main-section {
+  background-color: #161513;
+  color: white;
+  text-align: center;
+}
+
+.main-section img {
+  width: 150px;
+  margin: 15px 0px 15px 0px;
+}
+
+.heading-text {
+  font-size: 48px;
+}
