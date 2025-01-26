@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A platform for creating, managing, and RSVPing to events with features like notifications and Google Maps integration.",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -16,7 +19,7 @@
     "mongodb",
     "RSVP"
   ],
-  "author": "Your Name or Team Name",
+  "author": "egberongbe bukola",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.0.0",
